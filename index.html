@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        
+    <!-- Display -->
+    <input type="text" id="display" readonly>
+
+    <br><br>
+
+     <button class="button1" onclick="btnclick(1)">1</button>
+     <button class="button2" onclick="btnclick(2)">2</button>
+     <button class="button3" onclick="btnclick(3)">3</button>    
+      <br>
+     <button class="button4" onclick="btnclick(4)">4</button>
+     <button class="button5" onclick="btnclick(5)">5</button>
+     <button class="button6" onclick="btnclick(6)">6</button>
+     <br>
+     <button class="button7" onclick="btnclick(7)">7</button>
+     <button class="button8" onclick="btnclick(8)">8</button>
+     <button class="button9" onclick="btnclick(9)">9</button>
+     <br>
+     <button class="button0" onclick="btnclick(0)">0</button>
+
+     <br>
+
+     <button class="buttonplus" onclick="btnclick(`+`)">+</button>
+     <button class="buttonminus" onclick="btnclick(`-`)">-</button>
+     <br>
+     <button class="buttonmulti" onclick="btnclick(`*`)">*</button>
+     <button class="buttondivide" onclick="btnclick(`/`)">/</button>
+     <button class="buttonezi" onclick="calculate()">=</button>
+     <br>
+     <button class="buttonclear" onclick="clearDisplay()">clear</button>
+
+     <script src="app.js"></script>
+
+     </div>
+</body>
+</html>
